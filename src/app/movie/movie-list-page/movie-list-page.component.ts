@@ -8,12 +8,12 @@ import { MovieService } from '../movie.service';
 import { MovieListComponent } from '../movie-list/movie-list.component';
 
 @Component({
-    selector: 'movie-list-page',
-    template: `
+  selector: 'movie-list-page',
+  template: `
     <movie-list [movies]="movies" />
     <div (elementVisible)="paginate$.next()"></div>
   `,
-    imports: [MovieListComponent, ElementVisibilityDirective]
+  imports: [MovieListComponent, ElementVisibilityDirective],
 })
 export class MovieListPageComponent {
   private activatedRoute = inject(ActivatedRoute);

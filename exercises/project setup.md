@@ -5,13 +5,13 @@ when doing the actual coding exercises.
 
 ## 0. Make sure you have correct `node` * `npm` version
 
-* `node ^18.19.1 || ^20.11.1 || ^22.0.0`
-* `npm > 8`
+* `node ^20.19.0 || ^22.12.0 || ^24.0.0`
+* `npm > 10`
 
 e.g. 
 ```bash
 node -v
-v20.11.1
+v20.19.0
 
 npm -v 
 10.2.4
@@ -30,7 +30,7 @@ First of all, check if you already have a version installed
 ng version
 ```
 
-Check if the version matches the current latest version `18.x.x`.
+Check if the version matches the current latest version `20.x.x`.
 
 If so, you can skip the installation.
 
@@ -42,7 +42,7 @@ npm i @angular/cli@latest -g
 
 Output
 ```bash
-+ @angular/cli@19.x.x
++ @angular/cli@20.x.x
 added 1 package from 1 contributor and updated 2 packages in ...
 ```
 

@@ -13,6 +13,7 @@ export class TiltDirective {
 
   rotate = 'rotate(0deg)';
 
+  // eslint-disable-next-line @angular-eslint/prefer-inject
   constructor(private elementRef: ElementRef<HTMLElement>) {
     const rotate$ = fromEvent<MouseEvent>(
       this.elementRef.nativeElement,

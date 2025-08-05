@@ -9,7 +9,7 @@ First, validate the initial state. Navigate back-and-forth between different cat
 You should see 1 newly added request per route switch. If you also add network throttling to it & disable cache, you will notice that all requests are processed, regardless
 if the results are used or not.
 
-![requests-not-cancelled.png](../images/requests-not-cancelled.png)
+![requests-not-cancelled.png](./images/network/requests-not-cancelled.png)
 
 As a first step, refactor the currently nested subscriptions in the `MovieListPageComponent` to a single stream by using the `switchMap` operator.
 
@@ -36,4 +36,4 @@ As a first step, refactor the currently nested subscriptions in the `MovieListPa
 
 Cool, run your application and repeat the process from before. You should see that requests that are inflight and not needed, get properly aborted.
 
-![cancelled-requests.png](../images/cancelled-requests.png)
+![cancelled-requests.png](./images/network/cancelled-requests.png)
