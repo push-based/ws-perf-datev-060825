@@ -28,19 +28,20 @@ Run a bootstrap performance analysis by either hitting `Start profiling and relo
 ![record-and-reload](images/performance-tab/record-and-reload.png)
 
 After the report got analysed and is visible for you in the dev tools, search for the `LCP` 
-Core Web Vital in the `Timings` pane.
+Core Web Vital in the bottom section of your screen.
+
+![cwv-bottom.png](images/performance-tab/cwv-bottom.png)
 
 Find out when it is happening and what the browser has identified as `LCP`.
 
-In order to identify the `LCP` you might want to consider taking a look and the `Screenshot` section
-of the report.
+In order to identify the `LCP` you might want to consider taking a look at the `Summary` section.
 
-![screenshot-area](images/performance-tab/screenshot-area.png)
+![lcp summary](images/performance-tab/lcp-summary.png)
 
 <details>
-  <summary>Identify LCP</summary>
+  <summary>Or use the Insights Panel</summary>
 
-![identify-lcp.gif](images/performance-tab/identify-lcp.gif)
+![lcp-insights](images/performance-tab/lcp-insights.png)
 
 </details>
 
