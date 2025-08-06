@@ -16,7 +16,10 @@ Use the web vitals extension to see CLS problems on one of the movie detail page
 
 You should notice it reports a bunch of `text` nodes that jump around.
 
-![preload-cls-text-nodes.png](images/network/preload-cls-text-nodes.png)
+Inspect it either with the performance recording tool by refreshing the page with a clean cache,
+or by looking at the `Live Metrics` section in the performance tab.
+
+![live-metrics-cls.png](images/network/live-metrics-cls.png)
 
 To figure out the reason you might want to do a recording with the performance panel.
 
