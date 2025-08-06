@@ -33,8 +33,8 @@ npm run start
 
 ## Exercises
 
-[0. Project Setup](./exercises/project%20setup.md)
-[0.1 Additional Project Setups](./exercises/additional-projects.md)
+* [0. Project Setup](./exercises/project%20setup.md)
+* [0.1 Additional Project Setups](./exercises/additional-projects.md)
 
 ### Day 1
 
