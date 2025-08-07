@@ -55,11 +55,11 @@ Search for the `fonts` that are being downloaded for the page and write them dow
 
 ```text
 
-https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecg.woff2
-https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2
-https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2
-https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VF9eO.woff2
-https://fonts.gstatic.com/s/poppins/v21/pxiGyp8kv8JHgFVrJJLucHtA.woff2
+https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2
+https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLDz8Z1xlFd2JQEk.woff2
+https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2
+https://fonts.gstatic.com/s/poppins/v23/pxiDyp8kv8JHgFVrJJLmy15VF9eOYktMqg.woff2
+https://fonts.gstatic.com/s/poppins/v23/pxiGyp8kv8JHgFVrJJLucHtAOvWDSA.woff2
 
 ```
 
@@ -74,19 +74,19 @@ For each of those links, create a `link rel="preload" href="{{font}}" as="font" 
 
 ```html
 
-<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v21/pxiEyp8kv8JHgFVrJJfecg.woff2"
+<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v23/pxiEyp8kv8JHgFVrJJfecnFHGPc.woff2"
       as="font" type="font/woff2"
       crossorigin />
-<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2"
+<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLDz8Z1xlFd2JQEk.woff2"
       as="font" type="font/woff2"
       crossorigin />
-<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v21/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2"
+<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v23/pxiByp8kv8JHgFVrLCz7Z1xlFd2JQEk.woff2"
       as="font" type="font/woff2"
       crossorigin />
-<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v21/pxiDyp8kv8JHgFVrJJLmy15VF9eO.woff2"
+<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v23/pxiDyp8kv8JHgFVrJJLmy15VF9eOYktMqg.woff2"
       as="font" type="font/woff2"
       crossorigin />
-<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v21/pxiGyp8kv8JHgFVrJJLucHtA.woff2"
+<link rel="preload" href="https://fonts.gstatic.com/s/poppins/v23/pxiGyp8kv8JHgFVrJJLucHtAOvWDSA.woff2"
       as="font" type="font/woff2"
       crossorigin />
 
